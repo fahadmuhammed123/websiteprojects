@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,6 +22,52 @@
 
         .project-section {
             padding: 80px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .codepen {
+            height: 300px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid;
+            margin: 1em 0;
+            padding: 1em;
+            background-color: #000;
+            color: #ffd700;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .codepen:hover {
+            transform: scale(1.05);
+        }
+
+        .codepen a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Add animation to project showcase */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .codepen {
+            animation: fadeInUp 0.5s ease-in-out;
         }
 
         .footer {
@@ -52,7 +97,7 @@
 
             <!-- Project 1 -->
             <div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wvOgERv"
-                data-user="muhammedadnanv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                data-user="muhammedadnanv">
                 <span>See the Pen <a href="https://codepen.io/muhammedadnanv/pen/wvOgERv">Untitled</a> by
                     Muhammed Adnan (<a href="https://codepen.io/muhammedadnanv">@muhammedadnanv</a>) on
                     <a href="https://codepen.io">CodePen</a>.</span>
@@ -60,7 +105,7 @@
 
             <!-- Project 2 -->
             <div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBvRmjv"
-                data-user="muhammedadnanv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                data-user="muhammedadnanv">
                 <span>See the Pen <a href="https://codepen.io/muhammedadnanv/pen/qBvRmjv">Best Jewellery
                         Collection</a> by Muhammed Adnan (<a href="https://codepen.io/muhammedadnanv">@muhammedadnanv</a>)
                     on <a href="https://codepen.io">CodePen</a>.</span>
@@ -68,49 +113,11 @@
 
             <!-- Project 3 -->
             <div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNVXOme"
-                data-user="muhammedadnanv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                data-user="muhammedadnanv">
                 <span>See the Pen <a href="https://codepen.io/muhammedadnanv/pen/oNVXOme">Digital Marketer
                         website</a> by Muhammed Adnan (<a href="https://codepen.io/muhammedadnanv">@muhammedadnanv</a>)
                     on <a href="https://codepen.io">CodePen</a>.</span>
             </div>
-<!-- Project 4 -->
-<div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dyroLgz"
-    data-user="muhammedadnanv"
-    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/muhammedadnanv/pen/dyroLgz">A Static Website </a> by Muhammed
-        Adnan (<a href="https://codepen.io/muhammedadnanv">@muhammedadnanv</a>) on <a
-            href="https://codepen.io">CodePen</a>.</span>
-</div>
-
-<!-- Project 5 -->
-<div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRerYgV"
-    data-user="muhammedadnanv"
-    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/muhammedadnanv/pen/GRerYgV">Untitled</a> by Muhammed Adnan
-        (<a href="https://codepen.io/muhammedadnanv">@muhammedadnanv</a>) on <a
-            href="https://codepen.io">CodePen</a>.</span>
-</div>
-
-<!-- Project 6 -->
-<div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="rNRjqWd"
-    data-user="muhammedadnanv"
-    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/muhammedadnanv/pen/rNRjqWd">Untitled</a> by Muhammed Adnan
-        (<a href="https://codepen.io/muhammedadnanv">@muhammedadnanv</a>) on <a
-            href="https://codepen.io">CodePen</a>.</span>
-</div>
-
-<!-- Project 7 -->
-<div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKEaGWq"
-    data-user="muhammedadnanv"
-    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/muhammedadnanv/pen/KKEaGWq">website templates </a> by Muhammed
-        Adnan (<a href="https://codepen.io/muhammedadnanv">@muhammedadnanv</a>) on <a
-            href="https://codepen.io">CodePen</a>.</span>
-</div>
-
-           
-
         </div>
     </section>
 
